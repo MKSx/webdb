@@ -1,6 +1,8 @@
 <?php
 
-
+include_once "response.class.php";
+include_once "crypt.class.php";
+include_once "util.php";
 
 session_start();
 
