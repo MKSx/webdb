@@ -1,4 +1,7 @@
 <?php
+include_once "crypt.class.php";
+include_once "util.php";
+
 class Response{
     protected static $data = array(
         'Code' => 200,
